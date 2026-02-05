@@ -23,7 +23,7 @@ The source code is partially derived from:
 - [Apple AVFoundation MultiCam](https://developer.apple.com/documentation/avfoundation/avmulticampip-capturing-from-multiple-cameras/)
 
 #### Setup Instructions:
-1. Open the Xcode project file `./PocketVib_App/PocketVib_Collector/PocketVib_Collector.xcodeproj` in **Xcode 18** (or compatible version).
+1. Open the Xcode project file `./PocketVib_App/PocketVib_Collector/PocketVib_Collector.xcodeproj` in **Xcode**.
 2. In the project settings, go to **Signing & Capabilities**:
    - Enable **Automatically manage signing**.
    - Select your development team (you’ll need an [Apple Developer Account](https://developer.apple.com/)).
