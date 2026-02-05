@@ -1,6 +1,6 @@
 # When Mobile ToF Meets Micro-Vibration: Multi-Point kHz-Frequency Sensing using Laser Speckle
 
-This repo contains the official code and sample data for our MobiCom 2026 paper. For more details, please see Project Page.
+This repo contains the official code and sample data for our MobiCom 2026 paper. For more details, please see [Project Page](https://shangchengjin.github.io/PocketVib_web/).
 
 ## Part 1: PocketVib Algorithm Testing
 
@@ -13,7 +13,7 @@ We provide sample data in [`./sample_data`](./sample_data) for users to explore 
 
 ## Part 2: PocketVib App for On-Device Vibration Analysis
 
-A demo video of PocketVib in action is available [here](https://youtu.be/1L27PyO5Qbg).
+A demo video of PocketVib in action is available [here](https://youtu.be/4D6ri728UfQ).
 
 ### 📲 Getting the PocketVib Collector Running
 
