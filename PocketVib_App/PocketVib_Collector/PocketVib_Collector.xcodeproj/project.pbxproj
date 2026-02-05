@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		22B2DA272E8ED0670046AF89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22B2DA082E8ED0650046AF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22B2DA0F2E8ED0650046AF89;
+			remoteInfo = PocketVib_Collector;
+		};
+		22B2DA312E8ED0670046AF89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22B2DA082E8ED0650046AF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22B2DA0F2E8ED0650046AF89;
+			remoteInfo = PocketVib_Collector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2227D9EA2F1615DD0003F1C5 /* PocketVib_Collector.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PocketVib_Collector.xcodeproj; sourceTree = SOURCE_ROOT; };
+		22B2DA102E8ED0650046AF89 /* PocketVib_Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketVib_Collector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B2DA262E8ED0670046AF89 /* PocketVib_CollectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketVib_CollectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B2DA302E8ED0670046AF89 /* PocketVib_CollectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketVib_CollectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		22B2DA382E8ED0670046AF89 /* Exceptions for "PocketVib_Collector" folder in "PocketVib_Collector" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 22B2DA0F2E8ED0650046AF89 /* PocketVib_Collector */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		22B2DA122E8ED0650046AF89 /* PocketVib_Collector */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				22B2DA382E8ED0670046AF89 /* Exceptions for "PocketVib_Collector" folder in "PocketVib_Collector" target */,
+			);
+			path = PocketVib_Collector;
+			sourceTree = "<group>";
+		};
+		22B2DA292E8ED0670046AF89 /* PocketVib_CollectorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PocketVib_CollectorTests;
+			sourceTree = "<group>";
+		};
+		22B2DA332E8ED0670046AF89 /* PocketVib_CollectorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PocketVib_CollectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B2DA0D2E8ED0650046AF89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B2DA232E8ED0670046AF89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B2DA2D2E8ED0670046AF89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B2DA072E8ED0650046AF89 = {
+			isa = PBXGroup;
+			children = (
+				2227D9EA2F1615DD0003F1C5 /* PocketVib_Collector.xcodeproj */,
+				22B2DA122E8ED0650046AF89 /* PocketVib_Collector */,
+				22B2DA292E8ED0670046AF89 /* PocketVib_CollectorTests */,
+				22B2DA332E8ED0670046AF89 /* PocketVib_CollectorUITests */,
+				22B2DA112E8ED0650046AF89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22B2DA112E8ED0650046AF89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22B2DA102E8ED0650046AF89 /* PocketVib_Collector.app */,
+				22B2DA262E8ED0670046AF89 /* PocketVib_CollectorTests.xctest */,
+				22B2DA302E8ED0670046AF89 /* PocketVib_CollectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22E883AA2F20775400BBC925 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22B2DA0F2E8ED0650046AF89 /* PocketVib_Collector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B2DA392E8ED0670046AF89 /* Build configuration list for PBXNativeTarget "PocketVib_Collector" */;
+			buildPhases = (
+				22B2DA0C2E8ED0650046AF89 /* Sources */,
+				22B2DA0D2E8ED0650046AF89 /* Frameworks */,
+				22B2DA0E2E8ED0650046AF89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				22B2DA122E8ED0650046AF89 /* PocketVib_Collector */,
+			);
+			name = PocketVib_Collector;
+			packageProductDependencies = (
+			);
+			productName = PocketVib_Collector;
+			productReference = 22B2DA102E8ED0650046AF89 /* PocketVib_Collector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22B2DA252E8ED0670046AF89 /* PocketVib_CollectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B2DA3E2E8ED0670046AF89 /* Build configuration list for PBXNativeTarget "PocketVib_CollectorTests" */;
+			buildPhases = (
+				22B2DA222E8ED0670046AF89 /* Sources */,
+				22B2DA232E8ED0670046AF89 /* Frameworks */,
+				22B2DA242E8ED0670046AF89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22B2DA282E8ED0670046AF89 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				22B2DA292E8ED0670046AF89 /* PocketVib_CollectorTests */,
+			);
+			name = PocketVib_CollectorTests;
+			packageProductDependencies = (
+			);
+			productName = PocketVib_CollectorTests;
+			productReference = 22B2DA262E8ED0670046AF89 /* PocketVib_CollectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22B2DA2F2E8ED0670046AF89 /* PocketVib_CollectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B2DA412E8ED0670046AF89 /* Build configuration list for PBXNativeTarget "PocketVib_CollectorUITests" */;
+			buildPhases = (
+				22B2DA2C2E8ED0670046AF89 /* Sources */,
+				22B2DA2D2E8ED0670046AF89 /* Frameworks */,
+				22B2DA2E2E8ED0670046AF89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22B2DA322E8ED0670046AF89 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				22B2DA332E8ED0670046AF89 /* PocketVib_CollectorUITests */,
+			);
+			name = PocketVib_CollectorUITests;
+			packageProductDependencies = (
+			);
+			productName = PocketVib_CollectorUITests;
+			productReference = 22B2DA302E8ED0670046AF89 /* PocketVib_CollectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22B2DA082E8ED0650046AF89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					22B2DA0F2E8ED0650046AF89 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					22B2DA252E8ED0670046AF89 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 22B2DA0F2E8ED0650046AF89;
+					};
+					22B2DA2F2E8ED0670046AF89 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 22B2DA0F2E8ED0650046AF89;
+					};
+				};
+			};
+			buildConfigurationList = 22B2DA0B2E8ED0650046AF89 /* Build configuration list for PBXProject "PocketVib_Collector" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22B2DA072E8ED0650046AF89;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 22B2DA112E8ED0650046AF89 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 22E883AA2F20775400BBC925 /* Products */;
+					ProjectRef = 2227D9EA2F1615DD0003F1C5 /* PocketVib_Collector.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				22B2DA0F2E8ED0650046AF89 /* PocketVib_Collector */,
+				22B2DA252E8ED0670046AF89 /* PocketVib_CollectorTests */,
+				22B2DA2F2E8ED0670046AF89 /* PocketVib_CollectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B2DA0E2E8ED0650046AF89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B2DA242E8ED0670046AF89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B2DA2E2E8ED0670046AF89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B2DA0C2E8ED0650046AF89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B2DA222E8ED0670046AF89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B2DA2C2E8ED0670046AF89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22B2DA282E8ED0670046AF89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22B2DA0F2E8ED0650046AF89 /* PocketVib_Collector */;
+			targetProxy = 22B2DA272E8ED0670046AF89 /* PBXContainerItemProxy */;
+		};
+		22B2DA322E8ED0670046AF89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22B2DA0F2E8ED0650046AF89 /* PocketVib_Collector */;
+			targetProxy = 22B2DA312E8ED0670046AF89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22B2DA3A2E8ED0670046AF89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTBMCDHGAR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PocketVib_Collector/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jsc.PocketVib-Collector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22B2DA3B2E8ED0670046AF89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTBMCDHGAR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PocketVib_Collector/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jsc.PocketVib-Collector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22B2DA3C2E8ED0670046AF89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QTBMCDHGAR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22B2DA3D2E8ED0670046AF89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QTBMCDHGAR;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22B2DA3F2E8ED0670046AF89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTBMCDHGAR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jsc.PocketVib-CollectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketVib_Collector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocketVib_Collector";
+			};
+			name = Debug;
+		};
+		22B2DA402E8ED0670046AF89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTBMCDHGAR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jsc.PocketVib-CollectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketVib_Collector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocketVib_Collector";
+			};
+			name = Release;
+		};
+		22B2DA422E8ED0670046AF89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTBMCDHGAR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jsc.PocketVib-CollectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketVib_Collector;
+			};
+			name = Debug;
+		};
+		22B2DA432E8ED0670046AF89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTBMCDHGAR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jsc.PocketVib-CollectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketVib_Collector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B2DA0B2E8ED0650046AF89 /* Build configuration list for PBXProject "PocketVib_Collector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B2DA3C2E8ED0670046AF89 /* Debug */,
+				22B2DA3D2E8ED0670046AF89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B2DA392E8ED0670046AF89 /* Build configuration list for PBXNativeTarget "PocketVib_Collector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B2DA3A2E8ED0670046AF89 /* Debug */,
+				22B2DA3B2E8ED0670046AF89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B2DA3E2E8ED0670046AF89 /* Build configuration list for PBXNativeTarget "PocketVib_CollectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B2DA3F2E8ED0670046AF89 /* Debug */,
+				22B2DA402E8ED0670046AF89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B2DA412E8ED0670046AF89 /* Build configuration list for PBXNativeTarget "PocketVib_CollectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B2DA422E8ED0670046AF89 /* Debug */,
+				22B2DA432E8ED0670046AF89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22B2DA082E8ED0650046AF89 /* Project object */;
+}
