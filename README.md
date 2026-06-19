@@ -1,8 +1,7 @@
 # When Mobile ToF Meets Micro-Vibration: Multi-Point kHz-Frequency Sensing using Laser Speckle
 
 This repo contains the official code and sample data for our MobiCom 2026 paper. 
-For the DIY tutorial, please refer to our project page at \url{https://shangchengjin.github.io/PocketVibWeb/}.
-
+For the DIY tutorial, please refer to our [Project Page](https://shangchengjin.github.io/PocketVibWeb/).
 ## Part 1: PocketVib Algorithm Testing
 
 The notebook [`./PocketVib_Algorithm/PocketVib.ipynb`](./PocketVib_Algorithm/PocketVib.ipynb) demonstrates how PocketVib extracts vibration signals from captured laser speckle images.  
