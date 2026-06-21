@@ -69,12 +69,10 @@ Follow the **same deployment steps** as the Collector (Xcode build + device trus
 
 If you find our work and this codebase helpful, please consider starring this repo 🌟 and cite:
 
-<!--```bibtex-->
-<!--@inproceedings{jin2026mobile,-->
-<!--  author = {Jin, Shangcheng and Xie, Zhiyuan and Xing, Guoliang and Yan, Zhenyu},-->
-<!--  title = {When Mobile {ToF} Meets Micro-Vibration: Multi-Point k{H}z-Frequency Sensing using Laser Speckle},-->
-<!--  booktitle = {Proceedings of the Annual International Conference on Mobile Computing and Networking (MobiCom)},-->
-<!--  year = {2026},-->
-<!--  publisher = {ACM}-->
-<!--}-->
-<!--```-->
+@inproceedings{jin2026mobile,
+  author = {Jin, Shangcheng and Xie, Zhiyuan and Xing, Guoliang and Yan, Zhenyu},
+  title = {When Mobile {ToF} Meets Micro-Vibration: Multi-Point k{H}z-Frequency Sensing using Laser Speckle},
+  booktitle = {Proceedings of the Annual International Conference on Mobile Computing and Networking (MobiCom)},
+  year = {2026},
+  publisher = {ACM}
+}
