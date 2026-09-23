@@ -7,7 +7,7 @@ This repo contains the official code and sample data for our MobiCom 2026 paper.
 The notebook [`./PocketVib_Algorithm/PocketVib.ipynb`](./PocketVib_Algorithm/PocketVib.ipynb) demonstrates how PocketVib extracts vibration signals from captured laser speckle images.  
 
 We provide sample data in [`./sample_data`](./sample_data) for users to explore the algorithm and reproduce results.  
-**Ground truth vibration frequency**: 637.6 Hz.
+**Ground truth vibration frequency**: 637.6 Hz. For access to the full experimental dataset (due to storage constraints), please contact the authors via email.
 
 ---
 
@@ -36,7 +36,7 @@ The source code is partially derived from:
 - Use the buttons to adjust **exposure time**, **ISO**, and **focus**.
 - Recording runs at ~30 fps.
 - Upon successful capture, a `.mov` file is saved to your **Photos library** in an album named after the video.
-- The app also **automatically converts** the `.mov` into a sequence of `.png` frames stored in the same album.
+- The app also **automatically converts** the `.mov` into a sequence of `.jpeg` frames stored in the same album.
 - Tap **“Restart”** to reset the App.
 <div align="center">
     <img src="./PocketVib_App/PocketVib_Collector1.PNG" width="200" alt="Collector UI 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -69,12 +69,12 @@ Follow the **same deployment steps** as the Collector (Xcode build + device trus
 
 If you find our work and this codebase helpful, please consider starring this repo 🌟 and cite:
 
-<!--```bibtex-->
-<!--@inproceedings{jin2026mobile,-->
-<!--  author = {Jin, Shangcheng and Xie, Zhiyuan and Xing, Guoliang and Yan, Zhenyu},-->
-<!--  title = {When Mobile {ToF} Meets Micro-Vibration: Multi-Point k{H}z-Frequency Sensing using Laser Speckle},-->
-<!--  booktitle = {Proceedings of the Annual International Conference on Mobile Computing and Networking (MobiCom)},-->
-<!--  year = {2026},-->
-<!--  publisher = {ACM}-->
-<!--}-->
-<!--```-->
+```bibtex
+@inproceedings{jin2026mobile,
+  author = {Jin, Shangcheng and Xie, Zhiyuan and Xing, Guoliang and Yan, Zhenyu},
+  title = {When Mobile {ToF} Meets Micro-Vibration: Multi-Point k{H}z-Frequency Sensing using Laser Speckle},
+  booktitle = {Proceedings of the Annual International Conference on Mobile Computing and Networking (MobiCom)},
+  year = {2026},
+  publisher = {ACM}
+}
+```

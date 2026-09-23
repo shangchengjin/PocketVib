@@ -690,7 +690,7 @@ class ViewController: UIViewController, AVCaptureFileOutputRecordingDelegate, AV
         }
     }
     
-    // MARK: - Frame Extraction
+    // MARK: - Frame Extraction in JPG format
     private func extractAndSaveFramesAsPNG(into album: PHAssetCollection?, from videoURL: URL, completion: @escaping () -> Void) {
             let asset = AVURLAsset(url: videoURL)
             let generator = AVAssetImageGenerator(asset: asset)
